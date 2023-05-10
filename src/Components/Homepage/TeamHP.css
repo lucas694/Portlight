@@ -1,0 +1,31 @@
+.TeamHPContainer{
+    @apply flex flex-col items-center justify-center w-full py-10 bg-[#030211]
+    md:py-20
+}
+.TeamHPContent{
+    background-image: url("../../Assets/TeamHP/PatternTeam.png");
+    background-repeat: repeat;
+    background-size: contain;
+
+    @apply flex flex-col items-center justify-center w-full px-6 relative
+    md:w-[90%] md:px-0
+}
+.TeamHPTextContent{
+    @apply flex items-center justify-center w-full absolute
+}
+.TeamHPText{
+    font-family: 'Syne';
+    background: linear-gradient(90.49deg, rgba(255, 255, 255, 0.04) 1.69%, #F4F4F4 49.74%, rgba(255, 255, 255, 0.08) 99.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    @apply text-7xl font-bold text-center
+    sm:text-9xl
+    md:text-[12rem]
+    lg:text-[14rem]
+    xl:text-[378px]
+}
+.TeamHpBtnControl{
+    @apply mt-20 w-full px-6
+    md:w-auto
+}

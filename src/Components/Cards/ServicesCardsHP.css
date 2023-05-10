@@ -1,0 +1,37 @@
+.ServicesCardsHPContainer{
+    @apply flex flex-col items-start justify-center space-y-3 w-[281px]
+    sm:w-auto sm:max-w-[381px]
+    md:max-w-[200px]
+    lg:max-w-[281px]
+    xl:max-w-[361px]
+    2xl:max-w-[381px]
+    transition-all duration-500 ease-in-out
+}
+.ServicesCardTitle{
+    @apply text-[#FFFFFF] text-2xl font-bold
+    sm:text-3xl
+    md:text-xl
+    xl:text-2xl
+    2xl:text-3xl
+}
+.ServicesCardImg{
+    @apply w-auto h-auto
+}
+.ServicesCardDesc{
+    @apply text-[#FFFFFF] text-base font-medium text-start
+    sm:text-lg
+    md:text-sm
+    lg:text-base
+    2xl:text-lg
+}
+.BtnCard{
+    @apply w-auto
+
+}
+.BtnServicesIcon{
+    @apply w-[45px] h-[45px]
+    md:w-[40px] md:h-[40px]
+    lg:w-[45px] lg:h-[45px]
+    2xl:w-auto 2xl:h-auto
+
+}

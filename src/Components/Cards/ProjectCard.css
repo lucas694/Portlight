@@ -1,0 +1,12 @@
+.ProjectCardContainer{
+    @apply flex flex-col items-start justify-center w-auto max-w-[290px] mt-10
+    lg:max-w-full
+}
+.ProjectCardTitle{
+    @apply text-[#FFFFFF] text-2xl font-semibold mt-3
+    lg:text-3xl lg:mt-4
+}
+.ProjectCardType{
+    @apply text-[#FFFFFF] text-sm font-medium
+    lg:text-base
+}

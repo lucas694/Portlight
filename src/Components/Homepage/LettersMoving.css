@@ -1,0 +1,19 @@
+.LettersMovingContainer{
+    @apply flex flex-col justify-center items-center w-full py-2 overflow-hidden space-y-8
+    md:py-3
+}
+.TextAnimate{
+    font-family: 'Syne';
+    @apply text-2xl font-semibold tracking-widest whitespace-nowrap text-current text-[#FFFFFF]
+    sm:text-xl
+    md:text-3xl
+    xl:text-5xl
+    2xl:text-8xl
+}
+
+.LettersMovingHr{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 1.11%, #FFFFFF 48.59%, rgba(255, 255, 255, 0) 99.82%);
+
+    @apply w-[80%] h-[1px] border-none
+}
+

@@ -1,0 +1,49 @@
+.AboutHpContainer{
+    @apply flex flex-col justify-center items-center py-10 w-full px-6
+    md:py-20 md:px-0
+}
+.AboutHpContent{
+    @apply flex flex-col justify-center w-full
+    md:w-[90%] md:flex-row
+    lg:w-[70%]
+    xl:w-[60%]
+}
+.AboutHpTitleWhite{
+    @apply text-xl font-extrabold text-center bg-[#FFFFFF] text-[#030211] p-1
+}
+.AboutHpTitleBlack{
+    @apply text-xl font-extrabold text-center bg-[#030211] text-[#FFFFFF] py-1 px-2
+}
+.AboutHpLeft{
+    @apply flex flex-row items-start w-full
+    md:w-1/2
+}
+.AboutHpRight{
+    @apply flex flex-col items-start w-full space-y-4 mt-4
+    md:w-1/2 md:mt-0
+    2xl:w-[40%]
+}
+.AboutRText{
+    @apply text-base text-[#030211] font-semibold text-start
+    sm:text-lg
+}
+.AboutRBtnSection{
+    @apply flex flex-row items-center justify-center w-full mt-5
+    md:mt-8 md:w-auto
+}
+.AboutDown{
+    @apply hidden md:flex flex-col items-center justify-between w-full mt-20
+    md:w-[90%]
+    lg:w-[70%]
+    xl:w-[60%]
+}
+.AboutDownContent{
+    @apply flex flex-row justify-between items-center w-full mt-4
+}
+.AboutDownTitle{
+    @apply text-xl font-bold text-center text-[#030211] tracking-[0.3em]
+}
+.AboutDownImg{
+    @apply w-[7em] object-cover
+    2xl:w-auto
+}

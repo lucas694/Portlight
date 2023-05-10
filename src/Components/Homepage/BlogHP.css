@@ -1,0 +1,50 @@
+.BlogHPContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+    md:py-20
+}
+.BlogHPContent{
+    @apply flex flex-col items-center justify-center w-full px-6
+    md:w-[90%]
+    xl:w-[50%]
+}
+.BlogHPContent section{
+    @apply flex flex-col items-start w-full
+}
+.BlogHpTitle{
+    @apply text-[#030211] text-3xl font-bold text-start
+    lg:text-4xl
+}
+
+.BlogHpTitle span{
+    @apply text-[#FFFFFF] bg-[#030211] py-0.5 px-2 font-extrabold
+}
+.BlogHpPostContent{
+    @apply flex flex-col items-center justify-center w-full mt-8 space-y-16
+    md:w-[80%]
+}
+
+.BlogHpPost{
+    @apply flex flex-col items-center justify-center w-full
+}
+
+.BlogPostDate{
+    @apply text-[#030211] text-base font-semibold text-start w-full
+    md:text-lg
+}
+
+.BlogPostTitle{
+    @apply text-[#030211] text-xl font-bold text-start w-full mt-3
+    md:text-3xl md:font-semibold
+    hover:text-[#7C7C7C]
+}
+.BlogHpBtn{
+    @apply flex flex-row items-center justify-center w-full mt-12 text-[#030211] text-lg font-bold
+
+}
+.BlogHpIcon{
+    @apply w-6 h-6 ml-2
+    transition-all duration-500 ease-in-out
+}
+.BlogHpBtn:hover .BlogHpIcon{
+    @apply translate-x-3
+}

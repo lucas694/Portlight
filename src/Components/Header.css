@@ -1,0 +1,21 @@
+.HeaderContainer{
+    @apply hidden md:flex flex-row justify-center items-center w-full
+}
+.HeaderContent{
+    @apply flex flex-row items-center justify-between w-[80%] bg-gray-200
+}
+.HeaderLogo{
+    @apply w-[10%] h-auto
+}
+.NavHeader{
+    @apply w-auto
+}
+.UlHeader{
+    @apply flex flex-row items-center
+}
+.NavLinkHeader{
+    @apply px-3 py-1.5 text-[#030211] font-semibold text-lg
+}
+.active{
+    @apply text-[#F9F9F9] bg-[#030211]
+}

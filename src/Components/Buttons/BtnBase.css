@@ -1,0 +1,21 @@
+.BtnBase{
+    font-family: 'Nunito';
+    @apply flex flex-row justify-center items-center w-full rounded-full border-2
+    py-1.5 px-5 text-white font-medium text-base
+    md:w-auto
+    transition-all duration-300 ease-in-out cursor-pointer
+    hover:scale-105
+}
+.BlackBtn{
+    @apply bg-[#030211] border-[#030211]
+}
+.BlackBtnWhiteBorder{
+    @apply bg-[#030211] border-[#FFFFFF]
+}
+.BtnBaseIcon{
+    @apply w-auto h-auto ml-2
+}
+
+.WhiteBtn{
+    @apply bg-[#FFFFFF] border-[#030211] text-[#030211] font-bold
+}
