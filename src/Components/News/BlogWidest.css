@@ -1,0 +1,41 @@
+.BlogWidestContainer{
+    @apply flex flex-row justify-center items-center w-full px-6 py-10
+    md:px-0
+}
+.BlogWidestContent{
+    @apply flex flex-col justify-center items-center w-full
+    md:w-[90%] md:flex-row
+    lg:w-[80%]
+}
+.BlogWidestLeft{
+    @apply flex flex-col justify-center items-start w-full
+    md:w-[50%]
+}
+.BlogWidestRight{
+    @apply flex flex-col justify-center items-center w-full mt-10
+    md:w-[50%] md:mt-0
+}
+.BlogWidestDate{
+    @apply text-[#030211] text-base font-semibold text-start w-full
+}
+.BlogWidestTitle{
+    @apply text-2xl font-bold text-[#030211] text-start mt-3
+    md:mt-5 sm:text-3xl
+}
+.BlogWidestDesc{
+    @apply text-sm text-[#7C7C7C] text-start mt-4
+    sm:text-base
+}
+
+
+.BlogWidestBtn{
+    @apply flex flex-row items-center justify-center w-full mt-8 text-[#030211] text-lg font-semibold
+    sm:mt-12
+}
+.BlogWidestIcon{
+    @apply w-6 h-6 ml-2
+    transition-all duration-500 ease-in-out
+}
+.BlogWidestBtn:hover .BlogWidestIcon{
+    @apply translate-x-3
+}

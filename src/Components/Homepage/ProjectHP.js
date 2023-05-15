@@ -1,21 +1,21 @@
 import "./ProjectHP.css";
 import ServicesCardsHP from "../Cards/ServicesCardsHP";
-import ProjectCard from "../Cards/ProjectCard";
-import {GetProjectsData} from "../Utils/Utils";
 import LettersMoving from "./LettersMoving";
+import Projects from "./Projects";
+import Services1 from "../../Assets/Cards/ServicesHP/ServicesCardImg1.png";
+import Services2 from "../../Assets/Cards/ServicesHP/ServicesCardImg2.png";
+import Services3 from "../../Assets/Cards/ServicesHP/ServicesCardImg3.png";
 
 const ProjectHP = () => {
-  const ProjectsData = GetProjectsData();
-
   return(
     <div className={"ProjectHPContainer"}>
       {/*Services - UP*/}
       <div className={"ProjectHpServices"}>
         <h1 className={"ServicesTitle"}>Unlock Revenue Growth for <span>Your Business</span></h1>
         <div className={"ServicesCardsContent"}>
-          <ServicesCardsHP />
-          <ServicesCardsHP />
-          <ServicesCardsHP />
+          <ServicesCardsHP CardPhoto={Services2}/>
+          <ServicesCardsHP CardPhoto={Services1}/>
+          <ServicesCardsHP CardPhoto={Services3}/>
         </div>
       </div>
 
@@ -25,19 +25,7 @@ const ProjectHP = () => {
       {/*Down - Down*/}
       <div className={"ProjectMainContainer"}>
         <h1 className={"ServicesTitle"}>We Work to Craft Solid Products & <span>Project</span> For You</h1>
-        <div className={"ProjectCardsContent"}>
-          {ProjectsData.map((item, index) => {
-            return(
-              <ProjectCard
-                key={index}
-                CardImg={item.CardImg}
-                CardTitle={item.CardTitle}
-                CardType={item.CardType}
-              />
-            )})
-          }
-        </div>
-
+        <Projects />
       </div>
 
     </div>

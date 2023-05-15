@@ -1,0 +1,24 @@
+.LatestBlogContainer{
+    @apply flex flex-col items-center justify-center w-full py-10 px-6
+    md:py-20 md:px-0
+}
+.LatestBlogUp{
+    @apply flex flex-row items-start justify-between w-full
+    sm:w-[90%]
+}
+.LatestBlogTitle{
+    @apply text-[#030211] text-3xl font-bold text-start
+    lg:text-4xl
+}
+
+.LatestBlogTitle span{
+    @apply text-[#FFFFFF] bg-[#030211] py-0.5 px-2 font-extrabold
+}
+
+
+.LatestCardsContent{
+    @apply flex flex-row items-start justify-evenly w-full mt-10 flex-wrap
+    lg:w-[90%]
+    xl:w-[80%]
+    2xl:w-[60%]
+}

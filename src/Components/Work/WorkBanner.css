@@ -1,0 +1,29 @@
+.WorkBannerContainer{
+    @apply flex flex-col items-center justify-center w-full px-6 py-6
+    md:py-20 md:px-0
+}
+.WorkBannerContent{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[80%]
+}
+.WorkBannerTitle{
+    @apply text-[#030211] font-bold text-4xl mt-2
+    flex flex-row items-center justify-center
+    sm:text-5xl
+    md:text-6xl
+    xl:text-7xl
+}
+.WorkBannerDesc{
+    @apply text-[#7C7C7C] font-medium text-base mt-2.5 w-full
+    sm:text-lg
+    md:text-xl md:w-[80%]
+    lg:w-[60%]
+    2xl:w-[50%]
+}
+.WorkBannerImgControl{
+    @apply flex items-center justify-center w-full mt-8
+    md:mt-16
+}
+.WorkBannerImg{
+    @apply w-auto
+}

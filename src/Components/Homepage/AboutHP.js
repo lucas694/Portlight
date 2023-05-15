@@ -1,10 +1,6 @@
 import"./AboutHP.css";
 import BtnBase from "../Buttons/BtnBase";
-import AboutImg1 from "../../Assets/AboutHp/1.png";
-import AboutImg2 from "../../Assets/AboutHp/2.png";
-import AboutImg3 from "../../Assets/AboutHp/3.png";
-import AboutImg4 from "../../Assets/AboutHp/4.png";
-import AboutImg5 from "../../Assets/AboutHp/5.png";
+import Partner from "./Partner";
 
 const AboutHP = () =>{
   return(
@@ -25,16 +21,8 @@ const AboutHP = () =>{
           </div>
         </div>
       </div>
-      <div className={"AboutDown"}>
-        <h1 className={"AboutDownTitle"}>WE PARTNER WITH FORWARD</h1>
-        <div className={"AboutDownContent"}>
-          <img src={AboutImg1} alt={"AboutImg1"} className={"AboutDownImg"}/>
-          <img src={AboutImg2} alt={"AboutImg1"} className={"AboutDownImg"}/>
-          <img src={AboutImg3} alt={"AboutImg1"} className={"AboutDownImg"}/>
-          <img src={AboutImg4} alt={"AboutImg1"} className={"AboutDownImg"}/>
-          <img src={AboutImg5} alt={"AboutImg1"} className={"AboutDownImg"}/>
-        </div>
-      </div>
+      <Partner />
+
     </div>
   )
 };export default AboutHP;

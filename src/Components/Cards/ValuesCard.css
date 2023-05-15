@@ -1,0 +1,16 @@
+.ValuesCardContainer{
+    @apply flex flex-col items-start justify-center w-auto max-w-[290px]
+    sm:w-[280px] sm:max-w-[280px] py-4
+}
+.ValuesCardTitle{
+    @apply text-[#FFFFFF] text-2xl font-bold text-left mt-4
+    md:mt-6
+}
+.ValuesCardDesc{
+    @apply text-[#FFFFFF] text-sm text-left mt-2
+    md:mt-3
+}
+.ValuesCardImg{
+    @apply w-[55px] h-auto
+    md:w-[65px]
+}

@@ -1,0 +1,14 @@
+.NewsContainer{
+    @apply flex flex-col items-center justify-center w-full
+}
+.NewsTitle{
+    @apply text-[#030211] font-bold text-4xl mt-2
+    flex flex-row items-center justify-center
+    sm:text-5xl
+    md:text-6xl
+    xl:text-7xl
+}
+.HrNews{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 1.11%, #030211 48.59%, rgba(255, 255, 255, 0) 99.82%);
+    @apply w-[60%] h-[2px] border-none
+}

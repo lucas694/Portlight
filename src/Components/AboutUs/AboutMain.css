@@ -1,0 +1,76 @@
+.AboutMainContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+    md:py-20
+}
+.AboutMainContent{
+    @apply flex flex-col items-center justify-between w-full px-6
+    md:w-[90%] md:px-0 md:flex-row
+    lg:w-[70%]
+    2xl:w-[60%]
+}
+.AboutMainLeft{
+    @apply flex flex-col items-start justify-center w-full
+    md:w-[48%]
+    2xl:w-[40%]
+}
+.AboutMainLeft section{
+    @apply flex flex-row items-center
+}
+.AboutMainRight{
+    @apply flex flex-col items-start justify-center space-y-3 w-full mt-8
+    md:w-[48%] md:mt-8
+    2xl:w-[40%]
+}
+.AboutLeftTitleWhite{
+    @apply text-xl font-extrabold text-center bg-[#FFFFFF] text-[#030211] p-1
+    sm:text-3xl
+    md:text-xl
+    2xl:text-2xl
+}
+.AboutLeftTitleBlack{
+    @apply text-2xl font-bold text-center bg-[#030211] text-[#FFFFFF] py-1 px-2
+    sm:text-4xl
+    md:text-2xl
+    2xl:text-3xl
+}
+.AboutLeftDesc{
+    @apply text-base font-medium text-start text-[#030211] mt-2
+    sm:text-xl
+    md:mt-3 md:text-base
+    2xl:text-lg
+}
+.AboutMainImg{
+    @apply w-auto h-auto object-cover mt-8 rounded-sm
+    xl:mt-10
+}
+
+/*Topics*/
+
+
+.AboutMainTopic{
+    @apply flex flex-col items-start justify-center w-full p-4
+    border-b-[3px] border-[#030211] border-t-0 rounded-lg
+    sm:p-5
+    md:p-4
+    2xl:p-5
+}
+
+.AboutTopicTitle{
+    @apply text-2xl font-bold text-start  text-[#030211] p-1
+    sm:text-3xl
+    md:text-2xl
+}
+.AboutTopicDesc{
+    @apply text-base font-semibold text-start text-[#030211] mt-1
+    sm:text-lg sm:mt-2
+    md:text-base
+}
+
+/*hover*/
+.AboutMainTopic:hover{
+    @apply bg-[#030211] cursor-pointer
+}
+.AboutMainTopic:hover .AboutTopicTitle,
+.AboutMainTopic:hover .AboutTopicDesc{
+    @apply text-[#FFFFFF]
+}

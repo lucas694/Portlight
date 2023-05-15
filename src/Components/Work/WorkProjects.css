@@ -1,0 +1,8 @@
+.WorkProjectsContainer{
+    @apply flex flex-col items-center justify-center bg-[#030211] w-full px-0 py-10
+}
+.WorkProjectsTitle{
+    @apply text-[#FFFFFF] text-2xl font-bold text-center
+    md:text-3xl
+    lg:text-5xl
+}

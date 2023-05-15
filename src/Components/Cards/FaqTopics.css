@@ -1,0 +1,47 @@
+.FaqTopicsContainerDefault{
+    @apply flex flex-row items-center justify-center w-full p-5
+    transition-all duration-500 ease-in-out
+    border-b-[2px] border-[#030211] rounded-lg
+    md:p-6
+}
+.FaqTopicsContainerOpen{
+    @apply flex flex-row items-center justify-center w-full p-5 bg-[#030211] rounded-lg
+    transition-all duration-500 ease-in-out
+    md:p-6
+
+}
+.FaqTopicsMainContent{
+    @apply flex flex-col items-start justify-center w-full
+}
+.FaqTopicsTitleDefault{
+    @apply text-[#030211] text-xl font-bold text-left
+    md:text-2xl
+    lg:text-3xl
+}
+.FaqTopicsTitleOpen{
+    @apply text-[#FFFFFF] text-xl font-bold text-left
+    md:text-2xl
+    lg:text-3xl
+}
+.FaqTopicsDesc{
+    @apply text-[#FFFFFF] text-sm text-left mt-3 font-medium
+    md:text-base
+}
+
+
+/*Botão*/
+.FaqBtn{
+    @apply flex items-center justify-center w-14 h-auto rounded-full relative
+}
+.StarImg{
+    @apply w-auto h-auto
+}
+.FaqBtnIconClose{
+    @apply w-5 h-5 fill-[#030211] absolute
+    transition-all duration-700 ease-in-out
+}
+.FaqBtnIconOpen{
+    @apply w-[1.10rem] h-[1.10rem] fill-[#FFFFFF] absolute
+    transition-all duration-700 ease-in-out rotate-45
+
+}

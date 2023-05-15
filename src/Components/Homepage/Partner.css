@@ -1,0 +1,17 @@
+
+.PartnerContainer{
+    @apply hidden md:flex flex-col items-center justify-center w-full mt-20
+    md:w-[90%]
+    lg:w-[70%]
+    xl:w-[60%]
+}
+.PartnerContent{
+    @apply flex flex-row justify-between items-center w-full mt-4
+}
+.PartnerTitle{
+    @apply text-xl font-bold text-center text-[#030211] tracking-[0.3em]
+}
+.PartnerImg{
+    @apply w-[7em] object-cover
+    2xl:w-auto
+}

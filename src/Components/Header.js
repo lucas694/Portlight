@@ -12,7 +12,7 @@ const Header = () => {
             <NavLink to={ "/" } className={"NavLinkHeader"} activeClassName={"active"}>
               Home
             </NavLink>
-            <NavLink to={ "/About" } className={"NavLinkHeader"} activeClassName={"active"}>
+            <NavLink to={ "/AboutUs" } className={"NavLinkHeader"} activeClassName={"active"}>
               About
             </NavLink>
             <NavLink to={ "/Work" } className={"NavLinkHeader"} activeClassName={"active"}>
@@ -22,7 +22,7 @@ const Header = () => {
               News
             </NavLink>
             <NavLink to={ "/Contact" } className={"NavLinkHeader"} activeClassName={"active"}>
-              Contact
+              Team
             </NavLink>
           </ul>
         </nav>
