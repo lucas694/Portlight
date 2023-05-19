@@ -22,6 +22,13 @@ import CardBlog3 from "../../Assets/Cards/Blog/CardBlog3.png";
 import CardBlog4 from "../../Assets/Cards/Blog/CardBlog4.png";
 import CardBlog5 from "../../Assets/Cards/Blog/CardBlog5.png";
 
+//CardTeam Imgs
+import DavidJames from "../../Assets/Cards/Team/DavidJames.png";
+import JakeGibson from "../../Assets/Cards/Team/JakeGibson.png";
+import MariaWilson from "../../Assets/Cards/Team/MariaWilson.png";
+import EmmaBuckland from "../../Assets/Cards/Team/EmmaBuckland.jpg";
+import StevenHill from "../../Assets/Cards/Team/StevenHill.png";
+import MaxOliver from "../../Assets/Cards/Team/MaxOliver.png";
 
 
 /*Cards Projects*/
@@ -73,4 +80,17 @@ const CardBlogData = [
 ]
 export const GetCardBlogData = () => {
   return CardBlogData;
+}
+
+/*Cards Team*/
+const CardTeamData = [
+  {id:1, CardName:"David James", CardPosition:"Web App", CardImg:DavidJames, Instagram:"#SocialDavidJames", Twitter:"#SocialDavidJames", Facebook:"#SocialDavidJames", Linkedin:"#SocialDavidJames"},
+  {id:2, CardName:"Jake Gibson", CardPosition:"Web App", CardImg:JakeGibson, Instagram:"#SocialJakeGibson", Twitter:"#SocialJakeGibson", Facebook:"#SocialJakeGibson", Linkedin:"#SocialJakeGibson"},
+  {id:3, CardName:"Maria Wilson", CardPosition:"Web App", CardImg:MariaWilson, Instagram:"#SocialMariaWilson", Twitter:"#SocialMariaWilson", Facebook:"#SocialMariaWilson", Linkedin:"#SocialMariaWilson"},
+  {id:4, CardName:"Emma Buckland", CardPosition:"Web App", CardImg:EmmaBuckland, Instagram:"#SocialEmmaBuckland", Twitter:"#SocialEmmaBuckland", Facebook:"#SocialEmmaBuckland", Linkedin:"#SocialEmmaBuckland"},
+  {id:5, CardName:"Steven Hill", CardPosition:"Web App", CardImg:StevenHill, Instagram:"#SocialStevenHill", Twitter:"#SocialStevenHill", Facebook:"#SocialStevenHill", Linkedin:"#SocialStevenHill"},
+  {id:6, CardName:"Max Oliver", CardPosition:"Web App", CardImg:MaxOliver, Instagram:"#SocialMaxOliver", Twitter:"#SocialMaxOliver", Facebook:"#SocialMaxOliver", Linkedin:"#SocialMaxOliver"},
+]
+export const GetCardTeamData = () => {
+  return CardTeamData;
 }

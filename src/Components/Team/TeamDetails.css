@@ -1,0 +1,105 @@
+.TeamDetailsContainer{
+    @apply flex flex-col items-center justify-center w-full py-10 px-6
+    md:px-0
+}
+.TeamDetailsMain{
+    @apply flex flex-col items-center justify-between w-full
+    md:w-[90%] md:flex-row
+    lg:w-[70%]
+}
+.TeamDetailsImg{
+    @apply w-[290px] h-[270px]
+    md:w-[270px]
+}
+.TeamDetailsLeft{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[50%]
+}
+.TeamDetailsRight{
+    @apply flex flex-col items-start justify-center w-full mt-4
+    md:w-[50%] md:mt-0
+}
+.TeamDetailsName{
+    @apply text-[#030211] text-4xl font-bold
+}
+.TeamDetailsJob{
+    @apply text-[#7C7C7C] text-lg font-semibold
+}
+.TeamDetailsDesc{
+    @apply flex flex-col items-start justify-center w-full mt-6 p-3
+}
+.TeamDetailsAboutName{
+    @apply text-[#030211] text-lg font-bold
+}
+
+.TeamDetailsText{
+    @apply text-[#7C7C7C] text-base font-medium mt-3 text-start
+}
+.TeamDetailsSocial{
+    @apply flex flex-row items-start w-full mt-6 space-x-10
+}
+.TeamDetailsSocialIcon{
+    @apply w-5 h-5 fill-[#030211]
+}
+
+/*PersonalInfo*/
+
+.TeamDetailsPersonalInfo{
+    @apply flex flex-col items-start justify-center w-full p-8 bg-[#030211] mt-10
+    sm:p-10
+    md:p-20
+    lg:p-32
+}
+.PersonalInfoTitle{
+    @apply text-[#FFFFFF] text-3xl font-bold text-start
+    lg:text-4xl
+}
+.PersonalInfoDesc{
+    @apply text-[#FFFFFF] text-base font-medium mt-3 text-start
+    lg:text-lg
+}
+
+/*Contact Me*/
+.TeamDetailsContactContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+    md:py-20
+
+}
+.TeamDetailsContactContent{
+    @apply flex flex-col items-start justify-center w-full
+    md:w-[80%]
+    lg:w-[60%]
+}
+.ContactTitle{
+    @apply text-[#030211] text-4xl font-bold
+}
+.ContactForms{
+    @apply flex flex-col items-start justify-center w-full mt-4
+}
+.ContactForms section{
+    @apply flex flex-col items-center justify-between w-full space-x-2
+    md:flex-row
+}
+label{
+    @apply flex flex-col items-start justify-center w-full mt-4
+    md:mt-7
+}
+label span{
+    font-family: 'Syne', sans-serif;
+    @apply text-[#030211] text-sm font-bold
+    md:text-base
+}
+.ContactInput{
+    @apply w-full px-4 py-2 border-[1px] border-[#D3D3D3] rounded-full text-sm text-[#7C7C7C] mt-2
+    focus:outline-none
+    md:text-base
+}
+.ContactTxtArea{
+    @apply w-full px-4 py-2 border-[1px] border-[#D3D3D3] rounded-2xl text-sm text-[#7C7C7C] mt-2
+    focus:outline-none h-[100px]
+    md:text-base
+}
+.ContactBtnControl{
+    @apply flex items-start mt-5 w-full
+    md:mt-7 md:w-auto
+}

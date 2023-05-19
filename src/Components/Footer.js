@@ -2,6 +2,7 @@ import "./Footer.css";
 import FooterLogo from "../Assets/FooterLogo.png";
 import BtnBase from "./Buttons/BtnBase";
 import {BsInstagram, BsFacebook, BsTwitter, BsLinkedin} from "react-icons/bs";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return(
@@ -12,10 +13,18 @@ const Footer = () => {
         </div>
         <ul className={"UlFooter"}>
           <h1 className={"FooterTitle"}>Pages</h1>
-          <li className={"LiFooter"}>Home</li>
-          <li className={"LiFooter"}>About</li>
-          <li className={"LiFooter"}>Work</li>
-          <li className={"LiFooter"}>Pricing</li>
+          <Link to={"/"}>
+            <li className={"LiFooter"}>Home</li>
+          </Link>
+          <Link to={"/AboutUs"}>
+            <li className={"LiFooter"}>About</li>
+          </Link>
+          <Link to={"/Work"}>
+            <li className={"LiFooter"}>Work</li>
+          </Link>
+          <Link to={"#"}>
+            <li className={"LiFooter"}>Pricing</li>
+          </Link>
         </ul>
         <div className={"ContactDiv"}>
           <h1 className={"FooterTitle"}>Contact</h1>

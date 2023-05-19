@@ -1,6 +1,7 @@
 import "./TeamHP.css";
 import TeamBg from "../../Assets/TeamHP/TeamBg.png"
 import BtnBase from "../Buttons/BtnBase";
+import {Link} from "react-router-dom";
 
 const TeamHP = () => {
   return(
@@ -12,10 +13,12 @@ const TeamHP = () => {
         </div>
       </div>
       <div className={"TeamHpBtnControl"}>
-        <BtnBase className={"BlackBtnWhiteBorder"}
-                 children={"Meet Our Creative Professional"}
-                 icon={"white"}
-        />
+        <Link to={"/Team"}>
+          <BtnBase className={"BlackBtnWhiteBorder"}
+                   children={"Meet Our Creative Professional"}
+                   icon={"white"}
+          />
+        </Link>
       </div>
     </div>
   )

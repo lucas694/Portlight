@@ -1,0 +1,34 @@
+.CardTeamContainer{
+    @apply flex flex-col items-center justify-center w-auto max-w-[270px] py-6
+
+}
+.CardTeamMain{
+    @apply flex flex-col items-center justify-center w-full relative
+    overflow-hidden
+}
+.CardTeamImg{
+    @apply w-auto
+}
+.CardTeamSocial{
+    @apply flex flex-row items-center justify-evenly w-full absolute bottom-[-45px] bg-[#030211] py-3
+    transition-all duration-700 ease-in-out
+}
+.CardTeamSocialIcon{
+    @apply w-5 h-5 fill-white
+}
+
+.CardTeamInf{
+    @apply flex flex-col items-center justify-center w-full mt-3
+}
+.CardTeamName{
+    @apply text-[#030211] text-lg font-bold
+}
+.CardTeamJob{
+    @apply text-[#7C7C7C] text-sm font-semibold
+}
+
+/*hover effect*/
+.CardTeamContainer:hover .CardTeamSocial{
+    @apply flex bottom-0
+
+}

@@ -1,21 +1,49 @@
 .HeaderContainer{
-    @apply hidden md:flex flex-row justify-center items-center w-full
+    @apply flex md:flex flex-row justify-center items-center w-full
 }
 .HeaderContent{
-    @apply flex flex-row items-center justify-between w-[80%] bg-gray-200
+    @apply flex flex-row items-center w-full px-0 py-2  border-[#030211] border-b-2 rounded-b-2xl border-opacity-20
+    md:justify-between md:px-6 md:w-[80%]
 }
 .HeaderLogo{
-    @apply w-[10%] h-auto
+    @apply hidden md:block w-[150px] h-auto
 }
 .NavHeader{
-    @apply w-auto
+    @apply w-full flex flex-row items-center justify-evenly
+    sm:justify-center sm:space-x-4
+    md:w-auto md:space-x-2
 }
-.UlHeader{
-    @apply flex flex-row items-center
-}
+
 .NavLinkHeader{
-    @apply px-3 py-1.5 text-[#030211] font-semibold text-lg
+    font-family: 'Syne', sans-serif;
+    @apply px-4 py-2
+    flex flex-row items-center justify-center relative w-auto rounded-full overflow-hidden
+    transition-all duration-500 ease-in-out cursor-pointer
+}
+
+.NavLinkText{
+    @apply text-[#030211] font-semibold text-sm ml-1 absolute right-[-60px]
+    transition-all duration-500 ease-in-out
+    lg:text-base
+}
+
+.NavLinkHeaderIcon{
+    @apply w-4 h-4 mb-1 fill-[#030211]
+    lg:w-6 lg:h-6
 }
 .active{
-    @apply text-[#F9F9F9] bg-[#030211]
+    @apply bg-[#030211]
+    transition-all duration-500 ease-in-out
+}
+.active .NavLinkText {
+    @apply text-[#F9F9F9]  static transition-none
+}
+.active .NavLinkHeaderIcon {
+    @apply fill-[#F9F9F9]
+
+}
+
+/*aaaa*/
+.NavLinkHeader:hover .NavLinkText{
+    @apply right-0 relative
 }

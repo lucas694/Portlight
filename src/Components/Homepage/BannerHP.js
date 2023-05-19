@@ -28,12 +28,12 @@ const BannerHP = () => {
         </div>
       </div>
       <div className={"BannerHPUDown"}>
-        <img src={BannerImg1} alt={"BannerImg1"} className={"BannerImg"}/>
-        <img src={BannerImg2} alt={"BannerImg1"} className={"BannerImg"}/>
-        <img src={BannerImg3} alt={"BannerImg1"} className={"BannerImg"}/>
-        <img src={BannerImg4} alt={"BannerImg1"} className={"BannerImg"}/>
-        <img src={BannerImg5} alt={"BannerImg1"} className={"BannerImg"}/>
-        <img src={BannerImg6} alt={"BannerImg1"} className={"BannerImg"}/>
+        <img src={BannerImg1} alt={"BannerImg1"} className={"BannerImg-0"}/>
+        <img src={BannerImg2} alt={"BannerImg1"} className={"BannerImg-1"}/>
+        <img src={BannerImg3} alt={"BannerImg1"} className={"BannerImg-2"}/>
+        <img src={BannerImg4} alt={"BannerImg1"} className={"BannerImg-0"}/>
+        <img src={BannerImg5} alt={"BannerImg1"} className={"BannerImg-1"}/>
+        <img src={BannerImg6} alt={"BannerImg1"} className={"BannerImg-0"}/>
       </div>
 
     </div>

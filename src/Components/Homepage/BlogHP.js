@@ -27,7 +27,7 @@ const BlogHP = () =>{
           </div>
         </div>
 
-        <Link to={"/Blog"} className={"BlogHpBtn"}>See All News
+        <Link to={"/News"} className={"BlogHpBtn"}>See All News
           <TiArrowRightThick className={"BlogHpIcon"}/>
         </Link>
 

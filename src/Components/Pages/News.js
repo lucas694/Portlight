@@ -10,9 +10,7 @@ const News = () => {
       <BlogWidest />
       <hr className={"HrNews"} />
       <LatestBlog />
-
-
-    <NewsLetter />
+      <NewsLetter />
     </div>
   )
 
