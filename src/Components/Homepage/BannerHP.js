@@ -35,7 +35,7 @@ const BannerHP = () => {
         </div>
       </div>
       <div className={"BannerHPUDown"}>
-        <Zoom cascade damping={"0.2"} >
+        <Zoom cascade damping={"0.2"} fraction={0.5}>
           <img src={BannerImg1} alt={"BannerImg1"} className={"BannerImg-0"}/>
           <img src={BannerImg2} alt={"BannerImg1"} className={"BannerImg-1"}/>
           <img src={BannerImg3} alt={"BannerImg1"} className={"BannerImg-2"}/>
