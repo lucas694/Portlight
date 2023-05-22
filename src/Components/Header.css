@@ -1,8 +1,10 @@
 .HeaderContainer{
-    @apply flex md:flex flex-row justify-center items-center w-full
+    @apply flex md:flex flex-row justify-center items-center w-full fixed z-40
+    md:relative
 }
 .HeaderContent{
-    @apply flex flex-row items-center w-full px-0 py-2  border-[#030211] border-b-2 rounded-b-2xl border-opacity-20
+    background-color: hsla(0,0%,96%,.9);
+    @apply flex flex-row items-center w-full px-0 py-2  border-[#030211] border-b-2 rounded-b-2xl border-opacity-90
     md:justify-between md:px-6 md:w-[80%]
 }
 .HeaderLogo{

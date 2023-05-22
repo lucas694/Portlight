@@ -1,6 +1,6 @@
 .NewsLetterContainer{
     @apply flex flex-col items-center justify-center w-full py-10 bg-[#030211] px-6
-    md:py-20 md:px-0
+    md:py-20
 }
 .NewsLetterContent{
     @apply flex flex-col items-center justify-center w-full

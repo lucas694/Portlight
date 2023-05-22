@@ -7,35 +7,43 @@ import BannerImg4 from "../../Assets/BannerHP/BannerImg4.png"
 import BannerImg5 from "../../Assets/BannerHP/BannerImg5.png"
 import BannerImg6 from "../../Assets/BannerHP/BannerImg6.png"
 import BtnBase from "../Buttons/BtnBase";
+import {Zoom} from "react-awesome-reveal";
+import {Bounce} from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 
 const BannerHP = () => {
   return(
     <div className={"BannerHPContainer"}>
       <div className={"BannerHPUp"}>
-        <h1 className={"BannerHpTitle"}>Take it to</h1>
-        <h1 className={"BannerHpTitle"}>
-          the Creative
-          <img src={img} alt={"img"} className={"BannerHpTitleImg"}/>
-          level
-        </h1>
-        <p className={"BannerHpDesc"}>High-end digital experiences. Created at the heart of Manhattan, we are a human-sized team.</p>
+        <Bounce triggerOnce={true} cascade  >
+          <h1 className={"BannerHpTitle"}>Take it to</h1>
+          <h1 className={"BannerHpTitle"}>
+            the Creative
+            <img src={img} alt={"img"} className={"BannerHpTitleImg"}/>
+            level
+          </h1>
+          <p className={"BannerHpDesc"}>High-end digital experiences. Created at the heart of Manhattan, we are a human-sized team.</p>
+        </Bounce>
         <div className={"BtnSection"}>
-          <BtnBase className={"BlackBtn"}
-                   children={"Say Hello"}
-                   icon={"white"}
-          />
+          <Slide triggerOnce={true} direction={"left"} className={"BtnSection"}>
+            <BtnBase className={"BlackBtn"}
+                     children={"Say Hello"}
+                     icon={"white"}
+            />
+          </Slide>
         </div>
       </div>
       <div className={"BannerHPUDown"}>
-        <img src={BannerImg1} alt={"BannerImg1"} className={"BannerImg-0"}/>
-        <img src={BannerImg2} alt={"BannerImg1"} className={"BannerImg-1"}/>
-        <img src={BannerImg3} alt={"BannerImg1"} className={"BannerImg-2"}/>
-        <img src={BannerImg4} alt={"BannerImg1"} className={"BannerImg-0"}/>
-        <img src={BannerImg5} alt={"BannerImg1"} className={"BannerImg-1"}/>
-        <img src={BannerImg6} alt={"BannerImg1"} className={"BannerImg-0"}/>
+        <Zoom cascade damping={"0.2"} >
+          <img src={BannerImg1} alt={"BannerImg1"} className={"BannerImg-0"}/>
+          <img src={BannerImg2} alt={"BannerImg1"} className={"BannerImg-1"}/>
+          <img src={BannerImg3} alt={"BannerImg1"} className={"BannerImg-2"}/>
+          <img src={BannerImg4} alt={"BannerImg1"} className={"BannerImg-0"}/>
+          <img src={BannerImg5} alt={"BannerImg1"} className={"BannerImg-1"}/>
+          <img src={BannerImg6} alt={"BannerImg1"} className={"BannerImg-0"}/>
+        </Zoom>
       </div>
-
     </div>
   )
 };export default BannerHP;

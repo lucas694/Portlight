@@ -1,5 +1,6 @@
 .NewsContainer{
-    @apply flex flex-col items-center justify-center w-full
+    @apply flex flex-col items-center justify-center w-full py-20
+    md:py-10
 }
 .NewsTitle{
     @apply text-[#030211] font-bold text-4xl mt-2
