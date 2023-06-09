@@ -2,7 +2,6 @@
     background-image: url("../Assets/FooterBg.png");
     background-repeat: no-repeat;
     background-size: cover;
-
     @apply flex flex-col items-center justify-center w-full px-6 py-3
     md:px-0
 }
@@ -64,3 +63,4 @@
 .FooterCopy span{
     @apply underline underline-offset-2 font-bold
 }
+
