@@ -3,8 +3,13 @@ import BlogWidest from "../News/BlogWidest";
 import NewsLetter from "../NewsLetter";
 import LatestBlog from "../News/LatestBlog";
 import {Bounce,Fade} from "react-awesome-reveal";
+import {useEffect} from "react";
 
 const News = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <div className={"NewsContainer"}>
       <Bounce>

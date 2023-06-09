@@ -4,11 +4,16 @@ import {GetCardTeamData} from "../Utils/Utils";
 import {BsFacebook, BsInstagram, BsLinkedin, BsTwitter} from "react-icons/bs";
 import NewsLetter from "../NewsLetter";
 import BtnBase from "../Buttons/BtnBase";
+import {useEffect} from "react";
 
 const TeamDetails = () => {
   const {id} = useParams()
   const CardTeamData = GetCardTeamData()
   const CardTeamDataId = CardTeamData.find(item => item.id === parseInt(id));
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return(
     <div className={"TeamDetailsContainer"}>
