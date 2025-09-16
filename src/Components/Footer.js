@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={"FooterCopyDiv"}>
-        <h1 className={"FooterCopy"}>Copyright © Portlight | Designed by VictorFlow - Powered by <span>Lucas Cardoso.</span></h1>
+        <h1 className={"FooterCopy"}>Copyright © Portlight | <span>Lucas Cardoso.</span></h1>
       </div>
 
     </div>
